@@ -14,5 +14,6 @@ http://www.mulesoft.org/schema/mule/tls http://www.mulesoft.org/schema/mule/tls/
 	</http:listener-config>
 	<flow name="sslFlow" doc:id="39e10fca-fd4f-4650-9480-a68d04f8425d" >
 		<http:listener doc:name="/ssl" doc:id="26217b07-bdc1-4a02-b0b3-07d2822eb0f8" path="/ssl" config-ref="HTTP_Listener_config"/>
+		<logger level="INFO" doc:name="Logger" doc:id="cad4d473-55de-406f-a0d0-3d5ade0dee89" message="dummy"/>
 	</flow>
 </mule>
